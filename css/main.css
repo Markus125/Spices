@@ -88,3 +88,25 @@ h5 {font-size: 1.5rem;}
 
 small, .text_small {font-size: 0.667rem;}
 /* Font */
+/*END CSS RESET*/
+.logo img {
+  width: 4em ;
+}
+nav img {
+  width: 2em;
+  justify-content: space-between;
+}
+header {
+  display: flex;
+  justify-content:  space-between;
+}
+nav {
+  display: flex;
+}
+nav .logo {
+
+}
+.hero {
+
+
+}
