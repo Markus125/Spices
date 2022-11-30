@@ -92,7 +92,7 @@ small, .text_small {font-size: 0.667rem;}
 .logo img {
   width: 4em ;
 }
-nav img {
+nav, img {
   width: 2em;
   justify-content: space-between;
 }
@@ -103,10 +103,32 @@ header {
 nav {
   display: flex;
 }
-nav .logo {
+
+nav , img {
+  padding: 15px;
+}
+.logo {
+padding-top: 15px
 
 }
-.hero {
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
 
+.hero-cta {
+  max-width: 600px;
+}
+
+.hero {
+  position :relative
+}
+
+.hero-spice {
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 800px;
 
 }
